@@ -36,13 +36,14 @@ with col2:
 
         sns.barplot(
             x="Total_Milk_Production",
-            y="State_Name",
+            y="State",        # <-- Changed from "State_Name" to "State"
             data=df,
-            hue="State_Name",
+            hue="State",       # <-- Changed from "State_Name" to "State"
             palette="Blues_r",
             legend=False,
             ax=ax,
         )
+
 
         plt.title(
             "Top 5 U.S. Milk Producing States (USDA Data)",
