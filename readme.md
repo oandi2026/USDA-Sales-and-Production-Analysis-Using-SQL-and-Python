@@ -1,5 +1,8 @@
 USDA Sales and Production Analysis (SQL & Python)
 
+🚀 **Live Interactive Dashboard:** [View App on Streamlit](PASTE_LINK_STREAMLIT_ANDA_DI_SINI)
+
+
 📌 Project Overview
 
 This project analyzes U.S. agricultural production data (milk, cheese, coffee, honey, and yogurt) using USDA datasets. The objective is to uncover production trends, evaluate top-performing states, identify regional specializations, and generate actionable business insights.
