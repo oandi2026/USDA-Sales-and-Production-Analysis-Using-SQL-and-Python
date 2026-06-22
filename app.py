@@ -8,8 +8,8 @@ st.set_page_config(page_title="USDA Analysis", page_icon="📊", layout="wide")
 st.title("🌾 USDA Sales and Production Analysis")
 st.markdown("---")
 
-# Using columns for a clean dashboard layout
-col1, col2 = st.columns()
+# FIX: Added [1, 2] layout inside st.columns so it stops the TypeError crash
+col1, col2 = st.columns([1, 2])
 
 with col1:
     st.subheader("📌 Project Overview")
@@ -56,7 +56,6 @@ with col2:
         ax.xaxis.set_major_formatter(FuncFormatter(format_billion))
 
         # We map State_ANSI to the y-axis, and Value to the x-axis
-        # Convert State_ANSI to string so it is treated as a clean label on the chart
         y_labels = df["State_ANSI"].astype(str)
         
         ax.barh(y_labels, df["Value"], color="#1f77b4", edgecolor="none")
