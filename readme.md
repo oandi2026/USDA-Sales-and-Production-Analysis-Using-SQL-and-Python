@@ -25,12 +25,20 @@ This project analyzes U.S. agricultural production data (milk, cheese, coffee, h
 
 📂 Repository Structure
 
+
 ├── data/
-│   └── top_5_milk_producers.csv
+│   └── top_5_milk_producers...
 ├── notebooks/
-│   └── data_visualization.ipynb
+│   ├── data_visualization.ipynb
+│   └── top_5_milk_producers...
 ├── images/
-│   └── milk_production_chart.png
+│   ├── data_visualization.png
+│   ├── top_5_milk_chart.png
+│   ├── top_5_honey_chart.png
+│   ├── top_5_yogurt_chart.png
+│   └── top_5_egg_chart.png
+├── database/
+│   └── (SQL scripts & tables)
 └── README.md
 
 ⸻
