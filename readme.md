@@ -27,35 +27,29 @@ This project analyzes U.S. agricultural production data (milk, cheese, coffee, h
 
 📂 Repository Structure
 
-```text
-├── data/
-│   └── top_5_milk_producers.csv
-├── database/
-├── phyton/
-├── sql/
-├── data_visualization.ipynb
-├── data_visualization.png
-├── readme.md
-├── top_5_egg_chart.png
-├── top_5_honey_chart.png
-├── top_5_milk_producers.ipynb
-└── top_5_yogurt_chart.png
-```
+📂 Repository Structure 
+├── data/ 
+├── database/ 
+├── images/ 
+├── notebooks/ 
+├── .gitignore 
+├── app.py 
+├── readme.md 
+└── requirements.txt
 
-## Data Visualization
+## Data Visualization 
 
-### 1. Top 5 Milk Producers Chart
-![Top 5 Milk Producers](top_5_milk_producers.png)
+### 1. Top 5 Milk Producers Chart 
+![Top 5 Milk Producers](images/top_5_milk_producers.png) 
 
-### 2. Top 5 Honey Chart
-![Top 5 Honey Chart](top_5_honey_chart.png)
+### 2. Top 5 Honey Chart 
+![Top 5 Honey Chart](images/top_5_honey_chart.png) 
 
-### 3. Top 5 Yogurt Chart
-![Top 5 Yogurt Chart](top_5_yogurt_chart.png)
+### 3. Top 5 Yogurt Chart 
+![Top 5 Yogurt Chart](images/top_5_yogurt_chart.png) 
 
-### 4. Top 5 Egg Chart
-![Top 5 Egg Chart](top_5_egg_chart.png)
-
+### 4. Top 5 Egg Chart 
+![Top 5 Egg Chart](images/top_5_egg_chart.png) 
 
 📊 Data Analysis Workflow
 
