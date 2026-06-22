@@ -23,7 +23,7 @@ with col1:
     # Reading the milk data file located in the data/ folder
     try:
         df = pd.read_csv("data/top_5_milk_producers.csv")
-    df.columns = df.columns.str.strip()
+        df.columns = df.columns.str.strip()
 
         if "Value" in df.columns:
             df = df.rename(columns={"Value": "Total_Milk_Production"})
@@ -73,7 +73,7 @@ with col2:
         plt.tight_layout()
         st.pyplot(fig)
 
-        else:
-        st.warning("Required columns not found in dataset.")
+else:
+    st.warning("Required columns not found in dataset.")
 
 
